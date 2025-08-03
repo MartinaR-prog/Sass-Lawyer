@@ -21,3 +21,13 @@ h2, .h2{
 h4, .h4{
     line-height: 2.5rem;
 }
+
+.bg-img{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto 100%;
+}
+
+.bg-img-color{
+    background-color: rgba(#fff, 0.6);
+}

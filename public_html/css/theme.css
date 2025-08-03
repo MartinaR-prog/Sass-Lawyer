@@ -12124,6 +12124,16 @@ h4, .h4 {
   line-height: 2.5rem;
 }
 
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100%;
+}
+
+.bg-img-color {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
 header .navbar-brand {
   max-width: 100px;
   padding: 0;
@@ -12163,16 +12173,10 @@ header .navbar-nav .nav-item .nav-link {
   }
 }
 
-.herro-section {
-  padding: 90px 0;
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: auto 100%;
+.welcome-section {
+  padding: 9rem 0;
 }
-.herro-section .herro-content {
-  background-color: rgba(255, 255, 255, 0.6);
-}
-.herro-section .herro-content .herro-description {
+.welcome-section .welcome-content .welcome-description {
   margin-bottom: 5.9rem;
 }
 
@@ -12285,6 +12289,21 @@ footer .social .social-icon {
 }
 footer .social .social-icon:hover {
   transform: rotate(360deg);
+}
+
+.about-section {
+  padding: 14.4rem 0;
+}
+
+.vision-section {
+  padding: 10.6rem 0 10.8rem;
+}
+.vision-section .vision-image img {
+  width: 100%;
+  display: block;
+}
+.vision-section .vision-title {
+  margin-bottom: 2.6rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
