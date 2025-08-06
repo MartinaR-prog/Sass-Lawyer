@@ -1,3 +1,9 @@
+$dark-service-bg: $dark-blue;
+
+.areas-section{
+    padding: 14.3rem 0;
+}
+
 .service-section{
     padding: 11rem 0 11.3rem;
     .service-title{
@@ -8,9 +14,25 @@
         .service-item-title{
             color: #000;
             text-transform: uppercase;
-            margin-left: 2.4rem;
+            padding-left: 2.4rem;
             &:hover{
                 color: $blue;
+            }
+        }
+        .service-item-icon{
+            margin-bottom: 30px;
+        }
+    }
+    
+    &.dark-services-section{
+        background-color: $dark-service-bg;
+        .service-title, {
+            color: $primary;
+        }
+        .service-item-title{
+            color: #fff;
+            &:hover{
+                color: $primary;
             }
         }
     }

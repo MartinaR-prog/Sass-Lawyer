@@ -12180,6 +12180,10 @@ header .navbar-nav .nav-item .nav-link {
   margin-bottom: 5.9rem;
 }
 
+.areas-section {
+  padding: 14.3rem 0;
+}
+
 .service-section {
   padding: 11rem 0 11.3rem;
 }
@@ -12192,9 +12196,24 @@ header .navbar-nav .nav-item .nav-link {
 .service-section .service-item .service-item-title {
   color: #000;
   text-transform: uppercase;
-  margin-left: 2.4rem;
+  padding-left: 2.4rem;
 }
 .service-section .service-item .service-item-title:hover {
+  color: #1A77CD;
+}
+.service-section .service-item .service-item-icon {
+  margin-bottom: 30px;
+}
+.service-section.dark-services-section {
+  background-color: #11284B;
+}
+.service-section.dark-services-section .service-title {
+  color: #1A77CD;
+}
+.service-section.dark-services-section .service-item-title {
+  color: #fff;
+}
+.service-section.dark-services-section .service-item-title:hover {
   color: #1A77CD;
 }
 
