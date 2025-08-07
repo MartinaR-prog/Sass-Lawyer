@@ -1,0 +1,23 @@
+.banking-section{
+    padding: 13.1rem 0;
+}
+
+.single-service-section{
+    padding: 10.4rem 0 9.4rem;
+    .single-service-image{
+        position: sticky;
+        -webkit-position: sticky;
+        top: 0;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
+    .single-service-data{
+        ul{
+            list-style: none;
+            padding-left: 0; 
+        }
+    }
+}
+
