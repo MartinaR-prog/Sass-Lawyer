@@ -1,0 +1,31 @@
+.contact-section{
+    padding: 15.4rem 0 15.3rem;
+    .contact-data{
+        padding-top: 1.3rem;
+        a,p{
+            color: #586C88;
+            text-decoration: none;
+        }
+    }
+}
+.contact-form-section{
+    padding: 11.4rem 0 10.9rem;
+    .contact-form-section-title{
+        margin-bottom: 3.7rem;
+    }
+    .contact-form{
+        .form-group{
+            margin-bottom: 2.2rem;
+            .form-control{
+                line-height: 5rem;
+                background-color: #F6F6F6;
+            }
+        }
+    }
+}
+.contact-map{
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+}
